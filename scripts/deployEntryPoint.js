@@ -2,7 +2,7 @@ const { ethers } = require("hardhat");
 
 async function main() {
     // Retrieve the EntryPoint contract
-    const EntryPoint = await ethers.getContractFactory("EntryPoint");
+    const EntryPoint = await ethers.getContractFactory("EntryPointMockup");
     console.log("Deploying EntryPoint contract...");
 
     // Deploy the contract
