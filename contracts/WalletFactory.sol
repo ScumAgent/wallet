@@ -11,7 +11,7 @@ contract WalletFactory {
     Wallet public immutable accountImplementation;
 
     IEntryPoint private constant _entryPoint =
-        IEntryPoint(0xFd448cDd0dCd865d6e6Cf7eB0A0aEf37400f2E75);
+        IEntryPoint(0x7c01A969b0B8C7bdADB2AD9f83852322fc360514);
 
     constructor() {
         accountImplementation = new Wallet(_entryPoint);
