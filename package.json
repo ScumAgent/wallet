@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@account-abstraction/contracts": "^0.7.0",
+    "dotenv": "^16.4.7",
     "hardhat": "^2.22.18"
   },
   "devDependencies": {
