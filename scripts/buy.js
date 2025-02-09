@@ -9,7 +9,7 @@ async function sendApproveTx() {
   const wallet = new ethers.Wallet(privateKey, provider);
 
   // 3. Set up the contract details
-  const walletAddress = "0x35ca25341f037DF22F79D85Da0F6474F8B25D044";
+  const walletAddress = "0x523AA7331Ce12E21610e3d4F9FC2DD3a48Dc8487";
   // Define the minimal ABI
   const contractAbi = [
     "function buyToken() external"
